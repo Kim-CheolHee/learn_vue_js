@@ -1,0 +1,19 @@
+{
+  "name": "learn-vue",
+  "version": "1.0.0",
+  "description": "[Vue.js 시작하기 인프런 강의](https://www.inflearn.com/course/Age-of-Vuejs) 리포지토리입니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-vue": "^9.17.0"
+  }
+}
