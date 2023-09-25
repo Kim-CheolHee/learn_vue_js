@@ -22,6 +22,8 @@
         <div v-show="loading">
             Loading...
         </div>
+        <input type="text" v-model="message">
+        <p>{{ message }}</p>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -33,7 +35,8 @@
                 num: 10,
                 uuid: 'v-bind test',
                 name: 'text-blue',
-                loading: true
+                loading: true,
+                message: ''
             },
             computed: {
                 doubleNum: function () {
