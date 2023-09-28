@@ -32,5 +32,6 @@ module.exports = {
     ],
     rules: {
         indent: ['error', 4] // 들여쓰기 공백 4글자
-    }
+    },
+    parser: '@babel/eslint-parser'
 }
